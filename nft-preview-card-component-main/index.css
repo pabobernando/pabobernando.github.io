@@ -1,0 +1,129 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  body{
+    background-color:rgba(13, 26, 45, 1);
+}
+
+.containerBox{
+text-align: center;
+align-items: center;
+justify-content: center;
+display: block;
+background-color:rgba(21, 38, 63, 1);
+width: 450px;
+margin: auto;
+border-radius: 25px;
+height: 750px;
+box-shadow: 1px 1px 20px white;
+}
+
+
+.logoatas{
+margin-top: 30px;
+border-radius: 10px;
+width: 400px;
+height: 350px;
+}
+
+
+.eth{
+    max-width: 400px;
+    height: 330px;
+}
+
+h1{
+color: white;
+text-align: left;
+}
+
+.equilibrium{
+    color: rgba(146,175 ,219 ,1 );
+    text-align: left;
+    
+}
+
+.container1{
+    
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+
+.flex-container{
+    
+    display: flex;
+    text-align: center;
+    width: 400px;
+    height: 60px;
+    margin: auto;
+}
+
+.eth{
+    flex: 50%;
+    
+    height: 60px;
+}
+
+.clock{
+    flex: 50%;
+    height: 60px;
+    
+}
+
+.creation{
+    display: flex;
+    
+    
+}
+
+.borderBottom{
+    border-bottom: 1px solid rgba(100, 123, 155, 1);
+}
+
+.logobawah{
+    width: 50px;
+    border-radius: 100%;
+}
+
+.pabobernando{
+    padding-left: 10px;
+    color: rgba(146, 175, 219, 1);
+}
+
+span{
+    color: white;
+}
+
+h4{
+    color: rgba(67, 164, 175, 1);
+    margin: 0;
+}
+
+.days{
+    color: rgba(146, 175, 219, 1);
+}
+
+.colEth{
+   
+    display: flex;
+    gap: 10px;
+}
+
+.colClock{
+    
+    display: flex;
+    gap: 10px;
+float: right;
+align-items: right;
+}
+
+.ethsvg{
+    width: 50px;
+}

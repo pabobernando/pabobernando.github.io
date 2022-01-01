@@ -1,0 +1,56 @@
+.img1{
+    height: 300px;
+}
+
+.img2{
+    height: 300px;
+}
+
+.img3{
+    height: 300px;
+}
+
+#hobby{
+    background-image: url(../images/Background\ Of\ Gradient\ Blue\ And\ Purple\ Banner.jpeg);
+    background-size: cover;
+    height: 960px;
+}
+
+.btnHome{
+    width: 200px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:400px ;
+    border-bottom-left-radius:60px ;
+    border-bottom-right-radius:20px ;
+    background-color: cyan;
+}
+
+.btnProject{
+    background-color: blueviolet;
+    width: 200px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius:400px ;
+    border-bottom-right-radius:60px ;
+}
+
+.btnProject a{
+    color: white;
+}
+
+.btnHome a{
+    color: black;
+}
+
+.js-tilt-glare{
+    border-radius: 18px;
+}
+
+.card1{
+    transform-style: preserve-3d;
+    perspective: 1000px;
+}
+
+.text-box{
+    transform: translateZ(30px);
+}

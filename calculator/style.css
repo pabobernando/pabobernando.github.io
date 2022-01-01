@@ -1,0 +1,65 @@
+body{
+    background-color: grey;
+}
+
+.container{
+    max-width: 400px;
+    margin:10vh auto 0 auto;
+    background-color: yellow;
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.buttons{
+    display: grid;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    grid-template-columns: auto auto auto auto;
+}
+
+.buttons > div {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.button{
+    border: 1px solid white;
+    line-height: 100px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+#equal{
+    background-color: black;
+    color: white;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    transition: 1s ease-in-out;
+}
+
+.calc{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.back{
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.back a{
+   text-decoration: none;
+   color:white;
+}

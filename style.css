@@ -1,0 +1,72 @@
+body {
+	background: linear-gradient(-45deg, black, grey, black, grey);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.jumbotron {
+  padding-top: 6rem;
+  height: 895px;
+}
+
+#Card {
+ 
+}
+
+section {
+  padding-top: 5rem;
+}
+
+.background {
+  
+  height: 999px;
+}
+
+.front {
+  text-shadow: 1px 1px black;
+}
+
+.pabo {
+  text-shadow: 1px 1px black;
+}
+
+.boxbody{
+  border-top: 1px solid black;
+}
+
+.imgLast{
+  
+  height: 260px;
+}
+
+h1{
+font-family: 'Montserrat', sans-serif;
+}
+
+
+p{
+  font-family: 'Alfa Slab One', cursive;
+  font-family: 'Pacifico', cursive;
+}
+
+.myname{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.imgSosmed{
+  width: 50px;
+}

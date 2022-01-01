@@ -1,0 +1,55 @@
+.img1{
+    height: 300px;
+}
+
+.img2{
+    height: 300px;
+}
+
+.img3{
+    height: 300px;
+}
+
+#project{
+    background-color: black;
+
+    height: 960px auto;
+}
+
+.btnHome{
+    width: 200px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:400px ;
+    border-bottom-left-radius:60px ;
+    border-bottom-right-radius:20px ;
+    background-color: cyan;
+    height: 35px;
+}
+
+.btnHobby{
+    background-color: blueviolet;
+    width: 200px;
+    height: 35px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    border-bottom-left-radius:400px ;
+    border-bottom-right-radius:60px ;
+    margin-top: 10px
+}
+
+.btnHobby a{
+    color: white;
+}
+
+.btnHome a{
+    color: black;
+}
+
+h1{
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Montserrat', sans-serif;
+}
+
+.showDetails{
+    border-radius: 10%;
+}

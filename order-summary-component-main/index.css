@@ -1,0 +1,91 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-img {
+    width: 450px;
+    height: 630px;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-avatar {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    margin: auto;
+    background-color: rgba(237, 239, 246, 1);
+    border-radius: 20px;
+    ;
+}
+
+.change {
+    display: block;
+    width: 100px;
+    margin: auto;
+}
+
+.music {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btnViolet {
+    width: 400px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: rgba(77, 107, 224, 1);
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btnViolet a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    color: rgba(153, 159, 180, 1);
+}
+
+p {
+    color: rgba(153, 159, 180, 1);
+    font-size: 20px;
+}
