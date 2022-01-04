@@ -2,7 +2,20 @@
     margin: 0;
     padding: 0;
 }
-
 .bgrnd{
-    height: 1500px;
+    background-color: black;
+}
+
+h1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 90px;
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    padding-top: 20px;
 }
