@@ -5,8 +5,8 @@ import Avatar from '../img/avatarbg.png'
 function CtaHome() {
 
     const recipientEmail = 'pabojust@gmail.com';
-    const subject = 'Pesan dari Website';
-    const body = 'Halo,\n\nIni adalah pesan dari website kami.';
+    const subject = 'pabobernando.com';
+    const body = 'Hiiii....';
     const mailtoLink = `mailto:${recipientEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 
   return (
@@ -26,15 +26,15 @@ function CtaHome() {
           </p>
           <div className="flex mt-8">
             <Link to="/product"><a className="px-4 py-2 mr-4 text-white uppercase bg-cyan-500 border-2 border-transparent rounded-lg text-md hover:bg-cyan-400">
-              My Product
+              my app
             </a></Link>
             <Link to={mailtoLink}><a className="px-4 py-2 text-cyan-500 uppercase bg-transparent border-2 border-cyan-500 rounded-lg hover:bg-cyan-500 hover:text-white text-md">
-              Contact
+              Contact Me
             </a></Link>
           </div>
         </div>
         <div className="relative w-full sm:w-1/3 lg:w-3/5">
-          <img src={Avatar} className="m-auto max-w-sm sm:max-w-full animate-bounce"/>
+          <img src={Avatar} className="m-auto max-w-sm sm:max-w-full float-right"/>
         </div>
       </div>
     </div>
